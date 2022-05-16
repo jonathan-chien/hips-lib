@@ -4,7 +4,7 @@ here to be used directly since you'll need to rewrite the samplers for each mode
 but perhaps still a useful reference.
 """
 import numpy as np
-from scipy.misc import logsumexp
+from scipy.special import logsumexp
 import matplotlib.pyplot as plt
 
 from mh import mh
